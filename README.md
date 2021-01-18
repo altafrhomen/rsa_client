@@ -1,4 +1,7 @@
 # rsa_client
+rsa_client is a python wrapper for OpenvpnServer,easy-rsa. This wrapper can Generate and Revoke clients.
+#easy-rsa #openvpnserver
+
 
 **To Create a Client.**
 
