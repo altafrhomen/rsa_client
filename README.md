@@ -12,10 +12,9 @@
         print("Client Generation Failed")
   
 
-Creates client certificate, key and verify using openssl.
-Generated Files: <Clientname.key> and <Clientname.crt> moved to `/etc/openvpn/client/`
+Creates client certificate and key. verify the certificate and key using openssl.generated files <Clientname.key> and <Clientname.crt> will be moved to `/etc/openvpn/client/`
 
-To Create multiple Clients.
+**To Create multiple Clients.**
 
 
     from rsa_client import Rsa_Client
@@ -40,7 +39,7 @@ For removing a client from accessing the server, should revoke the key,certifica
  
 Revoke file crl.pem will be updated automatically.
 
-TO Delete/Revoke multiple Clients
+**To Delete/Revoke multiple Clients**
 
 
     from rsa_client import Rsa_Client
