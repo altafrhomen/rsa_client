@@ -1,6 +1,7 @@
 # rsa_client
 rsa_client is a python wrapper for OpenvpnServer,easy-rsa. This wrapper can Generate and Revoke clients.
-#easy-rsa #openvpnserver
+generated files like <"clientname">.key and <"clientname">.crt will moved to `/etc/openvpn/client/`. dh.pem and crl.pem
+will be moved to `/etc/openvpn/server/`.
 
 
 **To Create a Client.**
