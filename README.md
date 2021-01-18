@@ -4,7 +4,7 @@
 
 
     from rsa_client import Rsa_Client
-    client="clientname"
+    client="<clientname>"
     gen=Rsa_Client(client)
     if gen.create_user():
         print("%s Client Generated "%client)
@@ -30,7 +30,7 @@ Creates client certificate and key. verify the certificate and key using openssl
 For removing a client from accessing the server, should revoke the key,certificate of the client
 
     from rsa_client import Rsa_Client
-    client="clientname"
+    client="<clientname>"
     rev=Rsa_Client(client)
     if rev.revoke_user():
         print("%s Client Revoked "%client)
