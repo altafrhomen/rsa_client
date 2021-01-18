@@ -7,7 +7,7 @@ Author : Altaf rhomen
 """
 import subprocess, os , sys
 
-class rsa-client:
+class Rsa_Client:
 	def __init__(self,name)
 		self.clientid=name#your name
 
